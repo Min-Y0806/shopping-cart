@@ -18,7 +18,7 @@ header .logo {
 
 header .nav li {
     display: inline;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 header .nav li a {
@@ -81,5 +81,53 @@ header .nav li a:hover {
     color: #000;
 }
 
+/* -----------------About-------------------------- */
 
-/* small screen */
+.about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* ----------------Cart page----------------------- */
+
+.products-container {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.products-container img {
+    width: 80px;
+    height: 90px;
+}
+
+table {
+    width: 70%;
+    border-bottom: 1px solid #444444;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+}
+
+td {
+    position: relative;
+}
+
+td i {
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
